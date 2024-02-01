@@ -1,0 +1,10 @@
+Random Forest Classifier
+https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
+
+Hyperparameters: {'n_estimators': 1200, 'min_samples_split': 10, 'min_samples_leaf': 1, 'max_depth': 80, 'bootstrap': True}
+additional hyperparameter when predicting random_coil: class_weight ={0:1, 1: 10}
+
+Metrics when classifying whether alpha helical feature is present from sum of residue hydrophobicity indices:
+           precision    recall  f1-score   support
+False       0.74      0.59      0.66        44
+True        0.81      0.90      0.85        88
